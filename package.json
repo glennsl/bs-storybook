@@ -1,10 +1,8 @@
 {
   "name": "bs-storybook-workspace",
   "version": "0.0.0",
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "private": true,
   "workspaces": [
     "packages/*"
