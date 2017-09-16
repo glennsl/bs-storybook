@@ -1475,7 +1475,13 @@ browserslist@^2.1.2, browserslist@^2.4.0:
     caniuse-lite "^1.0.30000718"
     electron-to-chromium "^1.3.18"
 
-bs-platform@^1.9.2:
+bs-loader@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/bs-loader/-/bs-loader-1.7.1.tgz#1bce70dabcd1d0159258581f6a630ec624bf3e5d"
+  dependencies:
+    loader-utils "^1.1.0"
+
+bs-platform@1.9.2, bs-platform@^1.9.2:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-1.9.2.tgz#19e1f3a0331ffbcf416c5c1b883fdf656aac18b8"
 
@@ -4296,7 +4302,7 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
-reason-react@>=0.2.1:
+reason-react@>=0.2.1, reason-react@^0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.2.4.tgz#96d85a533fc93e695818dbb3e6a8ae05fbf0de7d"
   dependencies:
