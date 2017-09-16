@@ -6,7 +6,9 @@
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack -w"
+    "webpack": "webpack -w",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "react": "^15.4.2",
@@ -15,7 +17,10 @@
   },
   "devDependencies": {
     "bs-platform": "^1.9.2",
-    "webpack": "^1.14.0"
+    "webpack": "^1.14.0",
+    "@storybook/react": "^3.2.8",
+    "@storybook/addon-actions": "^3.2.6",
+    "@storybook/addon-links": "^3.2.6"
   },
   "private": true
 }
