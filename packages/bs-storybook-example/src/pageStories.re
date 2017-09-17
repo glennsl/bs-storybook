@@ -1,6 +1,4 @@
-let m = [%bs.raw "module"];
-
-let pageSection = Storybook.createSection "Page" m;
+let pageSection = Storybook.createSection "Page" [%bs.raw "module"];
 
 Storybook.addDecorator
   pageSection
